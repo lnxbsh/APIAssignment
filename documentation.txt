@@ -1,0 +1,29 @@
+	 //Get all Posts
+    	 GET /posts/ Post[]
+
+	//Delete a specific Post by the postid
+	DELETE /posts/:postid ID Sucess
+	router.HandleFunc("/posts/{postid}", DeletePost).Methods("DELETE")
+
+	//Update a specfic post by the postid
+	//PUT /posts/ {}
+    
+	//Get single post by postid
+	//GET /posts/:postid {Posts} Success
+
+	//Get all comments by post id
+	//GET /comments/:postid Comment[] Success 
+
+	POST /comments/ JSON Sucess	
+	
+	//Post a comment on post using json field and post methods
+	
+	//Get all tag from data base
+	GET /tags/ Tags[]
+	
+	GET /tags/{postid} Tags[]
+	//Get all tag of the post
+	
+	//Updating tag by tag id
+	PUT /tags/{tagid} 
+		
